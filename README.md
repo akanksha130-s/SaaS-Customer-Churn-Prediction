@@ -53,7 +53,7 @@ Only ~11% of customers file a negative-sentiment ticket, but when they do,
 churn is nearly certain — a smaller, high-precision warning sign that a
 structured-data-only model would miss entirely.
 
-![EDA Overview](visuals/eda_overview.png)
+![EDA Overview](eda_overview.png)
 
 ### Model
 
@@ -65,7 +65,7 @@ features:
   artifact of one lucky train/test split
 - **Accuracy: 82.4%** | Precision/Recall (churn class): 0.807 / 0.637
 
-![ROC and Precision-Recall Curves](visuals/model_curves.png)
+![ROC and Precision-Recall Curves](model_curves.png)
 
 ### SHAP driver ranking
 
@@ -78,7 +78,7 @@ features:
 | 5 | Login frequency | 0.098 |
 | 6 | Sentiment (positive) | 0.067 |
 
-![SHAP Summary](visuals/shap_summary.png)
+![SHAP Summary](shap_summary.png)
 
 **Takeaway:** usage depth is, by a wide margin, the strongest churn signal.
 Sentiment is a smaller but highly precise complementary signal — useful as an
